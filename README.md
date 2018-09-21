@@ -1,7 +1,7 @@
 # PESADA09 - Find if the Binary Search Tree is an AVL Tree
 ![PyPI - Status](https://img.shields.io/pypi/status/Django.svg)
 
-PESADA09 is a challenge that investigates whether, or not, given BSTs are AVL trees. This challenge can by found at [SPORJ](https://www.spoj.com/problems/PESADA09/)
+PESADA09 is a challenge that investigates whether, or not, given BSTs are AVL trees. This challenge can by found at [SPOJ](https://www.spoj.com/problems/PESADA09/).
 
 ## Context
 Given a binary search tree [(BST)](https://en.wikipedia.org/wiki/Binary_search_tree), which is represented in [arrays](http://en.wikipedia.org/wiki/Binary_tree#Arrays.) as an implicit data structure. In this structure, if a node has an index `i` its children (if any) are found at indices `2i+1` and `2i+2`, while its parent (if any) is found at index `floor((i-1)/2)`. An [AVL](https://en.wikipedia.org/wiki/AVL_tree) is a self-balancing BST where the Balance Factor `(balanceFactor = height(left subtree) - height(right subtree))` of every node is `-1`, `0` or `+1`. Otherwise, it is not an AVL tree. Find whether the given BST is an AVL tree or not.
